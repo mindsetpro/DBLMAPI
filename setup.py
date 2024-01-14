@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'dblmapi=dblmapi.cli:main',
+            'dblmapi=src.dblmapi_cli:main',
         ],
     },
 )
