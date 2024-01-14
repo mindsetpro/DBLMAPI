@@ -49,16 +49,13 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#dblmapi" class="nav-link">DBLMAPI</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#how-to-find-your-db-legends-files" class="nav-link">How to Find your DB Legends files</a>
+            <li class="nav-item" data-level="2"><a href="#examples" class="nav-link">Examples</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#installnation" class="nav-link">installnation</a>
+            
+            <li class="nav-item" data-level="2"><a href="#how-to-contribute" class="nav-link">How to Contribute</a>
               <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -66,18 +63,54 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="dblmapi">DBLMAPI</h1>
-<p>A python module for modding the game Dragon Ball Legends with its files</p>
-<p><img alt="image" src="https://github.com/JuJutsuCord/DBLMAPI/assets/155781220/b0b6a668-96dd-4ead-a33f-511d1f8eb509" /></p>
-<h2 id="how-to-find-your-db-legends-files">How to Find your DB Legends files</h2>
-<p>this requires android or a jailbroken iphone
-so you will need to install <a href="https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&amp;pli=1">Zarchiver</a> after you do that you will follow this path:
-/Android/data/com.bandainamcoen.dblegends_ww/files/
-then you will want to find this file:
-89bb4eb5637df3cd96c463a795005065</p>
-<p>after that you will put it in the folder you are using this module in and use one of the commands (see the help command by using: python dblmapi_cli.py -h)</p>
-<h2 id="installnation">installnation</h2>
-<p><code>pip install dblmapi-py</code></p></div>
+<p>Certainly! Here's an updated version of your <code>index.md</code> file with an additional section for examples and how to contribute:</p>
+<pre><code class="language-markdown"># DBLMAPI
+
+A Python module for modding the game Dragon Ball Legends with its files
+
+![DBLMAPI Image](https://github.com/JuJutsuCord/DBLMAPI/assets/155781220/b0b6a668-96dd-4ead-a33f-511d1f8eb509)
+
+## How to Find your DB Legends files
+
+This requires Android or a jailbroken iPhone. You will need to install [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&amp;pli=1). After that, follow this path:
+
+`/Android/data/com.bandainamcoen.dblegends_ww/files/`
+
+Find the file:
+
+`89bb4eb5637df3cd96c463a795005065`
+
+After that, put it in the folder you are using this module in and use one of the commands (see the help command by using: `python dblmapi_cli.py -h`)
+
+## Installation
+
+```bash
+pip install dblmapi-py
+</code></pre>
+<h2 id="examples">Examples</h2>
+<p>Here are some examples of using <code>dblmapi</code>:</p>
+<ul>
+<li><strong>Stars Task:</strong></li>
+</ul>
+<p><code>bash
+  dblmapi --t stars --f your_file.txt</code></p>
+<ul>
+<li><strong>Zenkai Task:</strong></li>
+</ul>
+<p><code>bash
+  dblmapi --t zenkai --f your_file.txt</code></p>
+<p>Explanations of each command and how they work can be found in the <a href="usage.md">Usage</a> section.</p>
+<h2 id="how-to-contribute">How to Contribute</h2>
+<p>You can contribute to DBLMAPI in various ways:</p>
+<ul>
+<li><strong>Star the Repo:</strong> Show your support by starring the repository.</li>
+<li><strong>Fork the Repo:</strong> Fork the repository to contribute your changes.</li>
+<li><strong>Give Feedback:</strong> Provide feedback or report issues in the <a href="https://github.com/JuJutsuCord/DBLMAPI/issues">GitHub Issues</a> section.</li>
+</ul>
+<p>Feel free to contribute and make DBLMAPI even better!</p>
+<p>made by mindset (AKA on PYPI Ohioman02)</p>
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.
+```</p></div>
             </div>
         </div>
 
@@ -160,5 +193,5 @@ then you will want to find this file:
 
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2024-01-14 06:22:54.515790+00:00
+Build Date UTC : 2024-01-14 06:31:01.172107+00:00
 -->
