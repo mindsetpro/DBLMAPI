@@ -18,7 +18,7 @@ def main():
     elif args.task == "zenkai":
         processed_content = zenkai_file(content)
 
-    with open("processed_file.txt", "wb") as processed_file:
+    with open("txt/zpower.txt", "wb") as processed_file:
         processed_file.write(processed_content)
 
 if __name__ == "__main__":
