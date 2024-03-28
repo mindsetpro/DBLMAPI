@@ -14,4 +14,5 @@ then you will want to find this file:
 after that you will put it in the folder you are using this module in and use one of the commands (see the help command by using: python dblmapi_cli.py -h)
 
 ## installnation
-`pip install dblmapi-py`
+`git clone https://github.com/mindsetpro/DBLMAPI.git`
+
