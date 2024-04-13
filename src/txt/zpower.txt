@@ -2204,6 +2204,46 @@
                 "count": 9999
             },
             {
+                "characterType": 595,
+                "count": 9999
+            },
+            {
+                "characterType": 596,
+                "count": 9999
+            },
+            {
+                "characterType": 597,
+                "count": 9999
+            },
+            {
+                "characterType": 598,
+                "count": 9999
+            },
+            {
+                "characterType": 599,
+                "count": 9999
+            },
+            {
+                "characterType": 600,
+                "count": 9999
+            },
+            {
+                "characterType": 601,
+                "count": 9999
+            },
+            {
+                "characterType": 602,
+                "count": 9999
+            },
+            {
+                "characterType": 603,
+                "count": 9999
+            },
+            {
+                "characterType": 604,
+                "count": 9999
+            },
+            {
                 "characterType": 9000,
                 "count": 9999
             }
